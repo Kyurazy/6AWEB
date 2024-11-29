@@ -1,0 +1,74 @@
+/* You can add global styles to this file, and also import other style files */
+@media print {
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  
+    .resume-container {
+      border: none;
+      margin: 0;
+      box-shadow: none;
+    }
+  
+    nav {
+      display: none;
+    }
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Resume Container */
+  .resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;  /* Changed from Times New Roman to Roboto */
+    color: #333;
+    border: 1px solid #ddd;
+    background-color: #fff;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h2, h3 {
+    font-size: 16pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .section p {
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+  
+  ul {
+    padding-left: 20px;
+    font-size: 12pt;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 11pt;
+    margin-top: 20px;
+  }
+  
+  footer a {
+    color: #0073e6;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
