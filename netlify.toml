@@ -1,3 +1,8 @@
-ng build --configuration=production
 [build]
-publish = "dist/angular-forms/browser"
+  command = "ng build --configuration=production"
+  publish = "dist/angular-forms/browser"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
