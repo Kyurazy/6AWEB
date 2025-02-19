@@ -1,3 +1,5 @@
+functionsDirectory = "C:\\Users\\palde\\Desktop\\AWEBFINALS\\angular-forms\\netlify\\functions"
+functionsDirectoryOrigin = "ui"
 headers = []
 redirects = []
 
@@ -16,6 +18,7 @@ publish = "C:\\Users\\palde\\Desktop\\AWEBFINALS\\angular-forms\\dist\\angular-f
 publishOrigin = "ui"
 commandOrigin = "ui"
 command = "npm run build"
+functions = "C:\\Users\\palde\\Desktop\\AWEBFINALS\\angular-forms\\netlify\\functions"
 
 [build.environment]
 
